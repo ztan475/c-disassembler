@@ -1,0 +1,40 @@
+
+button {
+    border: none;
+    margin: none;
+    font-family: "Courier New", "Courier", "monospace";
+    background-color:#fcdfff;
+}
+button[onclick] {
+    background-color:#f9b7ff;
+}
+button[onclick]:hover {
+    background-color:#50ebec;
+}
+#assembly {
+    height: 88vh;
+    overflow-x: scroll;
+    font-family: "Courier New", "Courier", "monospace";
+    font-size: 80%;
+    white-space: pre;
+}
+#source {
+    height: 88vh;
+    overflow-x: scroll;
+    font-family: "Courier New", "Courier", "monospace";
+    font-size: 80%;
+    white-space: pre;
+}
+table {
+    border-spacing: 0px;
+    overflow-y: scroll;
+}
+th {
+    font-size: 150%;
+    vertical-align: top;
+    height: 35px;
+}
+td {
+    padding: 0px;
+    padding-right: 15px;
+}
