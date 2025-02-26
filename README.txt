@@ -1,7 +1,5 @@
 This program is a disassembler that takes an input of the source file, an object dump, and a dwarf dump, and 
 returns a .html file that leads to a website that displays the mapping between source code lines and assembly lines. 
-Referencing doesn't work when refering to multiple lines for some reason, and I couldn't get highlighting to fully work. 
-Also, for some reason it doesn't jump to the highlighted code sometimes when clicked.
 
 How to run - 
 Use ruby with files as standard input
